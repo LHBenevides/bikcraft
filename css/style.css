@@ -1,3 +1,7 @@
 @import "../css/global.css";
+@import "../css/ultilidadades/tipografia.css";
+@import "../css/ultilidadades/cores.css";
 @import "../css/header.css";
-@import "../css/introducao.css"
+@import "../css/ultilidadades/componentes.css";
+@import "../css/introducao.css";
+
