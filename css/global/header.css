@@ -3,10 +3,8 @@
 }
 
 .header{
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 20px;
-  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -23,10 +21,7 @@
 .header-menu a{
   display: inline-block;
   padding: 16px 0px;
-  font-size: 1.125rem;
   position: relative;
-  font-family: 'Poppins';
-  font-weight: 400;
 }
 
 .header-menu a:after{
@@ -68,6 +63,5 @@
   }
   .header-menu a{
     padding: 8px 12px;
-    font-size: 0.875rem;
   }
 }
