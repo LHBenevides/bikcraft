@@ -25,7 +25,7 @@
   align-self: end;
 }
 
-.depoimento-texto p {
+.depoimento-texto  blockquote p {
   font-family: 'Merriweather', sans-serif;
   font-style: italic;
   font-weight: 900;

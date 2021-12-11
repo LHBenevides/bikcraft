@@ -19,10 +19,20 @@
   line-height: 1.33;
   font-family: 'Roboto';
   font-weight: 600;
+  max-width: max-content;
 }
 
 .button:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.button.secundario{
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.button.secundario:hover {
+  background: var(--cor-9);
 }
 
 .link {
