@@ -23,6 +23,7 @@
 .depoimento-texto {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .depoimento-texto  blockquote p {
@@ -51,6 +52,12 @@
   /* content: "“"; */
   /* left: 440px;
   top: 170px; */
+}
+
+@media (min-width:1200px){
+  .depoimento img{
+    max-height: 520px;
+  }
 }
 
 @media (max-width:800px){

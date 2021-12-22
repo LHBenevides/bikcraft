@@ -2,10 +2,6 @@
   background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
-.titulo-bg{
-  padding-bottom: 0px;
-}
-
 .contato{
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -16,9 +12,9 @@
 }
 
 .contato-dados{
-  background-color: var(--cor-12);
   padding: 60px;
   border-radius: 5px 0px 0px 5px;
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
 }
 
 .contato-dados p{
@@ -98,6 +94,7 @@
   }
   .contato-dados{
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
   .contato-formulario{
     border-radius: 0 0 5px 5px;
@@ -109,9 +106,10 @@
 
 
 .contato-formulario{
-  background-color: var(--cor-0);
   padding: 60px;
   border-radius: 0 5px 5px 0;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .form {
